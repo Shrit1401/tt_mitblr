@@ -1,6 +1,6 @@
 # Frontend experiments
 
-Completed Chromium and Firefox runs each passed **48 frontend cases with zero failures**. After a browser-specific date-formatting fix, **5 focused WebKit checks passed**. The final complete three-browser matrix is still running and is not counted as passed in this publication snapshot.
+The final static prototype passed **144 frontend experiments: 48 each in Chromium, Firefox and WebKit, with zero failures, skips or retries**. All 144 boundary audits recorded zero API requests and zero browser errors. The compact [machine summary](frontend-results.json) records every case, browser versions and artifact checksums.
 
 The suite exercises the visible product and local browser behavior. It does not call, import, compile, or test the application backend, database, worker, optimizer, or calculation engine. Saved fixture values are inspected as interface content. They are not recalculated or validated as financial results.
 
@@ -104,13 +104,14 @@ Every scan requires zero reported violations. The full view-level output retains
 
 ## Verification recorded at publication
 
-The static preview target is `http://127.0.0.1:49259`. On 17 September 2026, completed Chromium and Firefox runs passed 48 cases each with zero API attempts, uncaught page errors and console errors. A date-formatting mismatch found in WebKit was corrected, and 5 focused WebKit checks then passed. No test retries were used. The complete final matrix remains in progress at publication.
+The final static preview target was `http://127.0.0.1:49259`. On 17 September 2026, `FRONTEND_BASE_URL=http://127.0.0.1:49259 npx playwright test` completed with 144 passed in approximately 1.9 minutes. Each browser passed all 48 cases against the final artifact after a browser-specific date-formatting mismatch was corrected. All 144 boundary audits recorded zero API attempts, uncaught page errors and console errors. No cases were skipped and no retries were used.
 
 | Browser project | Passed | Failed | Skipped | Status |
 |---|---:|---:|---:|---|
 | Chromium | 48 | 0 | 0 | Completed against static export |
-| Firefox | 48 | 0 | 0 | Completed browser run |
-| WebKit | 5 focused checks | 0 in focused run | 0 in focused run | Full matrix in progress |
+| Firefox | 48 | 0 | 0 | Completed against static export |
+| WebKit | 48 | 0 | 0 | Completed against static export |
+| **Total** | **144** | **0** | **0** | **Final complete matrix** |
 
 ## What these results do not claim
 

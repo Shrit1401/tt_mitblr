@@ -23,8 +23,9 @@ See [frontend experiments](frontend-experiments.md) for browser coverage and [re
 | Strict frontend TypeScript | Passed using the frontend-only configuration |
 | Isolated static prototype build | Passed; server routes and backend modules excluded |
 | Chromium browser experiments | 48 passed, 0 failed, 0 skipped against the static prototype |
-| Firefox browser experiments | 48 passed in the completed browser run |
-| WebKit | 5 focused checks passed after the date-formatting fix; the full matrix is not yet counted as passed |
+| Firefox browser experiments | 48 passed, 0 failed, 0 skipped against the final static prototype |
+| WebKit browser experiments | 48 passed, 0 failed, 0 skipped against the final static prototype |
+| Complete frontend matrix | 144 passed, 0 failed, 0 skipped, 0 retries; all 144 API and browser-error audits passed |
 | Real UI screenshots | Eight captured screens: overview, borrowers, borrower detail, comparison, scenarios, decisions, evidence, and mobile |
 | Dependency audit | 0 reported vulnerabilities at the recorded audit time |
 | Public research, complete local inputs | 9 passed, 0 skipped |
