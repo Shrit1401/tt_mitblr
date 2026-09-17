@@ -1,40 +1,371 @@
 {
   "schemaVersion": 1,
-  "recordedAt": "2026-09-17T18:01:49.647648+00:00",
-  "status": "partial-publication-record",
-  "scope": "Frontend browser experiments only",
-  "baseUrl": "http://127.0.0.1:49259",
-  "configuredCasesPerBrowser": 48,
-  "configuredFullMatrixCases": 144,
-  "completedFullSuites": {
-    "chromium": {
-      "passed": 48,
-      "failed": 0,
-      "skipped": 0
-    },
-    "firefox": {
-      "passed": 48,
-      "failed": 0,
-      "skipped": 0
-    }
+  "generatedAt": "2026-09-17T18:02:50.187Z",
+  "scope": "Browser interaction and accessibility experiments against the isolated static frontend export",
+  "playwrightVersion": "1.63.0",
+  "runner": {
+    "nodeVersion": "v24.15.0",
+    "platform": "darwin",
+    "architecture": "arm64"
   },
-  "separateSmokeRun": {
-    "browser": "webkit",
-    "passed": 5,
-    "failed": 0,
-    "skipped": 0,
-    "scope": "overview, command palette, dialog keyboard focus, skip link, closed mobile sidebar"
+  "browsers": {
+    "chromium": "153.0.8010.12",
+    "firefox": "155.0",
+    "webkit": "26.6"
   },
-  "pendingFullSuite": {
-    "browser": "webkit",
-    "status": "running",
-    "countedAsPassed": false
-  },
-  "completedChecksBoundary": {
+  "casesPerBrowser": 48,
+  "passed": 144,
+  "failed": 0,
+  "skipped": 0,
+  "retries": 0,
+  "frontendBoundary": {
+    "checks": 144,
     "attemptedApiRequests": 0,
     "browserErrors": 0,
     "apiRoutesBlocked": true,
+    "serviceWorkersBlocked": true,
     "backendTested": false
   },
-  "method": "Completed Chromium and Firefox suites observed in the running Playwright reporter; separate WebKit smoke result completed before that run. The full matrix report is not yet final. No pending case is counted as passed."
+  "coverage": {
+    "accessibleViews": [
+      "overview",
+      "borrowers",
+      "borrower/farmer",
+      "borrower/vendor",
+      "borrower/tailor",
+      "comparison/farmer",
+      "comparison/tailor",
+      "scenarios",
+      "decisions",
+      "evidence"
+    ],
+    "accessibilityDialog": "Workspace guide",
+    "axeTags": [
+      "wcag2a",
+      "wcag2aa",
+      "wcag21a",
+      "wcag21aa",
+      "wcag22aa"
+    ],
+    "viewportWidths": [
+      360,
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "layoutViewsPerWidth": 7,
+    "keyboardTraversal": {
+      "macOSWebKit": "Option+Tab and Option+Shift+Tab",
+      "otherProjects": "Tab and Shift+Tab",
+      "systemSettingsChanged": false
+    },
+    "focusRingAndSkipLinkVisibilityChecked": true,
+    "automatedAccessibilityIsNotCertification": true
+  },
+  "staticArtifact": {
+    "path": ".prototype-build/out",
+    "files": 32,
+    "manifestSha256": "6ea967b30a75f7cdfc103e0a43da74565cbf3867e525b09db92fd462bf0d58ea",
+    "indexHtmlSha256": "77ac9ae7146d058f17e205c29099ede7991aacbfb7d841c5c385a890834dde59",
+    "checksumMethod": "SHA-256 of JSON-encoded, recursively path-sorted relative paths and per-file SHA-256 hashes"
+  },
+  "runs": [
+    {
+      "startedAt": "2026-09-17T17:59:50.886Z",
+      "durationMs": 112880,
+      "passed": 144,
+      "baseUrl": "http://127.0.0.1:49259"
+    }
+  ],
+  "cases": [
+    {
+      "name": "overview explains the demo and opens the featured borrower",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "all sidebar views navigate with an active location and stable hash",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "borrower deep links survive reload and browser back restores the earlier view",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "borrower search matches name, livelihood and location",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "income filters combine with search and explain an empty result",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "command palette searches, reports no match, and navigates to a profile",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "vendor shows a pending state without invented plan results",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "income decline clearly prevents decision selection for every candidate",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "comparison shows four saved alternatives and preserves the fixture disclaimer",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "all four saved ledgers expose 26 rows and selecting another plan updates the title",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "saved ledger CSV exports the complete 26-week table in explicit paise units",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "decision form requires a meaningful reason before it creates a local draft",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "a decision persists, becomes reviewed, and exports without claiming activation",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "scenario presets update their values and distinguish diagnostic assumptions",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "scenario sliders are keyboard operable across their full configured ranges",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "scenario drafts persist, export as unevaluated, and can be removed",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "valid CSV previews locally and the downloadable sample matches the declared columns",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "CSV preview rejects wrong columns and explains the issue",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "CSV preview rejects nonnumeric cells and explains the issue",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "CSV preview rejects invalid dates and explains the issue",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "CSV preview rejects impossible calendar dates and explains the issue",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "CSV preview rejects empty values and explains the issue",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "CSV preview rejects non CSV extensions and explains the issue",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "CSV preview enforces the 64 KB limit and recovers with a valid file",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "dialogs trap keyboard focus, close with Escape and restore the opener",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "activity dialog reports local drafts and can be dismissed with its close control",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "source registry expands each record with an attributable external link",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "malformed stored JSON does not break the workspace",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "skip link moves keyboard focus to main content",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "mobile navigation opens, changes view and closes without horizontal page overflow",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "closed mobile navigation stays out of the keyboard order and opens accessibly",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "every major view fits a 360px viewport without page overflow",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "every major view fits a 390px viewport without page overflow",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "every major view fits a 768px viewport without page overflow",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "every major view fits a 1024px viewport without page overflow",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "every major view fits a 1440px viewport without page overflow",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "reduced-motion preference disables entrance and navigation animation",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "WCAG 2.2 AA automated accessibility: overview",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "WCAG 2.2 AA automated accessibility: borrowers",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "WCAG 2.2 AA automated accessibility: borrower/farmer",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "WCAG 2.2 AA automated accessibility: borrower/vendor",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "WCAG 2.2 AA automated accessibility: borrower/tailor",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "WCAG 2.2 AA automated accessibility: comparison/farmer",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "WCAG 2.2 AA automated accessibility: comparison/tailor",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "WCAG 2.2 AA automated accessibility: scenarios",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "WCAG 2.2 AA automated accessibility: decisions",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "WCAG 2.2 AA automated accessibility: evidence",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    },
+    {
+      "name": "open guide dialog has no automated WCAG 2.2 AA violations",
+      "chromium": "passed",
+      "firefox": "passed",
+      "webkit": "passed"
+    }
+  ]
 }

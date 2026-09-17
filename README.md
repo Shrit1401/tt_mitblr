@@ -141,7 +141,7 @@ npm run test:research
 
 | Track | Evidence |
 | --- | --- |
-| Frontend | Strict TypeScript and isolated static build passed; browser interaction, keyboard, accessibility, and responsive checks are detailed in [implementation status](docs/implementation-status.md) |
+| Frontend | **144 checks passed: 48 each in Chromium, Firefox, and WebKit.** Strict TypeScript and the isolated static build also passed. See [implementation status](docs/implementation-status.md) for the verification scope. |
 | Public research, full local run | **9 experiments passed, 0 skipped**, using the original locally retained research sources |
 | Public research, distributable checkout | **1 aggregate-consistency experiment passed; 8 source-dependent experiments explicitly skipped** when running in published-only mode |
 | Backend, API, engine, database, worker, optimizer | **Not run, built, tested, or benchmarked** in this delivery |
