@@ -1,0 +1,45 @@
+{
+  "retrieved_on": "2026-09-17",
+  "source_url": "https://finmark.org.za/data-portal/IND/financial-diaries",
+  "api_url": "https://finmark.org.za/fdapi/household_transactions?categories=%5B%7B%22category_type%22%3A%22income%22%2C%22subcategory%22%3Anull%7D%2C%7B%22category_type%22%3A%22expense%22%2C%22subcategory%22%3Anull%7D%5D&project_name=India+Financial+Diaries",
+  "source_sha256": "4531b4f19de23dfd7a0a0d2259977504bc8f20e4de724b25ab7bd6ab6525896a",
+  "study": "India Financial Diaries",
+  "geography": "Varanasi and outskirts, Uttar Pradesh, India",
+  "period_start": "2013-02",
+  "period_end": "2013-06",
+  "currency": "INR nominal 2013",
+  "frequency": "month",
+  "households_in_source": 86,
+  "individuals_reported_on_portal": 376,
+  "household_category_series": 172,
+  "income_month_observations": 357,
+  "expense_month_observations": 364,
+  "household_month_rows": 365,
+  "months_with_income_and_expense": 356,
+  "households_with_all_five_paired_months": 56,
+  "negative_reported_income_months": 26,
+  "missing_values_imputed": false,
+  "weekly_values_created": false,
+  "nationally_representative": false,
+  "loan_borrower_status_verified": false,
+  "domino_beneficiaries": null,
+  "chart_example": {
+    "household_id": "LAH31",
+    "selection": "First household returned by source API; illustrative case, not representative",
+    "series": [
+      "income_inr",
+      "consumption_outflow_inr"
+    ],
+    "source_csv": "finmark_example_LAH31_chart.csv",
+    "title": "One household: income and expenses change by month",
+    "subtitle": "Varanasi diary LAH31; INR per month; Feb-Jun 2013",
+    "source_line": "Source: FinMark Trust, India Financial Diaries, household LAH31, Feb-Jun 2013. Published monthly observations; no DOMINO intervention."
+  },
+  "limitations": [
+    "Five monthly values at most, not weekly records or 104-week histories.",
+    "Incomplete reporting is retained as blank, not converted to zero.",
+    "Negative income values are preserved; their category definitions need further review before lending use.",
+    "No opening balance, essential-spending designation, verified debt schedule or default outcome is supplied by this selected endpoint.",
+    "Do not describe the 86 households as current borrowers, DOMINO users, or beneficiaries."
+  ]
+}

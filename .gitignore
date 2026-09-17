@@ -1,4 +1,39 @@
+# Installed dependencies and generated output
 node_modules/
+.next/
+out/
 dist/
-.claude/worktrees/
+.prototype-build/
+*.tsbuildinfo
+playwright-report/
+test-results/
 .DS_Store
+__pycache__/
+*.pyc
+.venv/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.claude/
+
+# Locally preserved design and presentation material
+.chart-data-*/
+.deck-build/
+assets/
+Domino/
+backend/
+output/*
+!output/DOMINO-Implementation-Guide.md
+
+# Third-party source material with separate redistribution terms
+data/public/raw/
+data/public/finmark_india_household_months.csv
+data/public/finmark_india_monthly_long.csv
+data/public/finmark_example_LAH31_chart.csv
+
+# Framework-generated local agent instructions and type references
+apps/web/AGENTS.md
+apps/web/CLAUDE.md
+apps/web/next-env.d.ts

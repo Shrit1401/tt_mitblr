@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-09-17T18:01:49.647648+00:00",
+  "status": "partial-publication-record",
+  "scope": "Frontend browser experiments only",
+  "baseUrl": "http://127.0.0.1:49259",
+  "configuredCasesPerBrowser": 48,
+  "configuredFullMatrixCases": 144,
+  "completedFullSuites": {
+    "chromium": {
+      "passed": 48,
+      "failed": 0,
+      "skipped": 0
+    },
+    "firefox": {
+      "passed": 48,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "separateSmokeRun": {
+    "browser": "webkit",
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0,
+    "scope": "overview, command palette, dialog keyboard focus, skip link, closed mobile sidebar"
+  },
+  "pendingFullSuite": {
+    "browser": "webkit",
+    "status": "running",
+    "countedAsPassed": false
+  },
+  "completedChecksBoundary": {
+    "attemptedApiRequests": 0,
+    "browserErrors": 0,
+    "apiRoutesBlocked": true,
+    "backendTested": false
+  },
+  "method": "Completed Chromium and Firefox suites observed in the running Playwright reporter; separate WebKit smoke result completed before that run. The full matrix report is not yet final. No pending case is counted as passed."
+}

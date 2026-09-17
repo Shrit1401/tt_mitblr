@@ -1,0 +1,11 @@
+{
+  "name": "@domino/web",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@domino/engine": "*",
+    "@domino/contracts": "*",
+    "@domino/db": "*",
+    "@domino/data": "*"
+  }
+}

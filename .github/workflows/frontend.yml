@@ -1,0 +1,31 @@
+name: Frontend and published research
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  prototype:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run check:frontend
+      - run: npm run build:prototype
+      - run: npx playwright install --with-deps chromium firefox webkit
+      - run: npm run test:frontend
+      - run: npm run test:research
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: frontend-report
+          path: |
+            playwright-report
+            test-results/frontend-results.json
+          retention-days: 14
+# This workflow deliberately never imports, builds, starts, or tests backend source.

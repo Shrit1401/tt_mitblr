@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "incremental": false,
+    "plugins": [],
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": [
+    "app/page.tsx",
+    "app/layout.tsx",
+    "components/**/*.tsx",
+    "lib/demo.ts",
+    "lib/*.json"
+  ],
+  "exclude": [
+    "node_modules",
+    "app/api",
+    "lib/server",
+    ".next"
+  ]
+}

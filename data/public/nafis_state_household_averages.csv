@@ -1,0 +1,32 @@
+geography,survey,population_scope,avg_monthly_income_inr,avg_monthly_consumption_inr,income_minus_consumption_inr,gap_share_of_mean_income_pct,source_id,source_table,source_printed_pages
+INDIA,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,12698,11262,1436,11.309,nabard_nafis_2021_22,5.2,45-46
+Andhra Pradesh,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,11037,10448,589,5.337,nabard_nafis_2021_22,5.2,45-46
+Arunachal Pradesh,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,12730,11212,1518,11.925,nabard_nafis_2021_22,5.2,45-46
+Assam,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,14448,12762,1686,11.669,nabard_nafis_2021_22,5.2,45-46
+Bihar,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,8878,8445,433,4.877,nabard_nafis_2021_22,5.2,45-46
+Chhattisgarh,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,10380,9159,1221,11.763,nabard_nafis_2021_22,5.2,45-46
+Goa,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,18680,17320,1360,7.281,nabard_nafis_2021_22,5.2,45-46
+Gujarat,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,15957,14654,1303,8.166,nabard_nafis_2021_22,5.2,45-46
+Haryana,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,21752,16796,4956,22.784,nabard_nafis_2021_22,5.2,45-46
+Himachal Pradesh,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,14977,13028,1949,13.013,nabard_nafis_2021_22,5.2,45-46
+Jammu & Kashmir (UT),NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,18993,17428,1565,8.24,nabard_nafis_2021_22,5.2,45-46
+Jharkhand,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,9085,8471,614,6.758,nabard_nafis_2021_22,5.2,45-46
+Karnataka,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,13487,11618,1869,13.858,nabard_nafis_2021_22,5.2,45-46
+Kerala,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,16788,14778,2010,11.973,nabard_nafis_2021_22,5.2,45-46
+Ladakh (UT),NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,17407,13527,3880,22.29,nabard_nafis_2021_22,5.2,45-46
+Madhya Pradesh,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,11085,9327,1758,15.859,nabard_nafis_2021_22,5.2,45-46
+Maharashtra,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,16238,14713,1525,9.392,nabard_nafis_2021_22,5.2,45-46
+Manipur,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,15398,14060,1338,8.689,nabard_nafis_2021_22,5.2,45-46
+Meghalaya,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,14448,12176,2272,15.725,nabard_nafis_2021_22,5.2,45-46
+Mizoram,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,15143,13592,1551,10.242,nabard_nafis_2021_22,5.2,45-46
+Nagaland,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,12363,11409,954,7.717,nabard_nafis_2021_22,5.2,45-46
+Odisha,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,8924,7945,979,10.97,nabard_nafis_2021_22,5.2,45-46
+Punjab,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,21842,16159,5683,26.019,nabard_nafis_2021_22,5.2,45-46
+Rajasthan,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,12945,10773,2172,16.779,nabard_nafis_2021_22,5.2,45-46
+Sikkim,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,13883,12303,1580,11.381,nabard_nafis_2021_22,5.2,45-46
+Tamil Nadu,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,16487,14467,2020,12.252,nabard_nafis_2021_22,5.2,45-46
+Telangana,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,12065,11284,781,6.473,nabard_nafis_2021_22,5.2,45-46
+Tripura,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,9708,8891,817,8.416,nabard_nafis_2021_22,5.2,45-46
+Uttar Pradesh,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,10029,9126,903,9.004,nabard_nafis_2021_22,5.2,45-46
+Uttarakhand,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,13679,11867,1812,13.247,nabard_nafis_2021_22,5.2,45-46
+West Bengal,NAFIS 2021-22,All households in covered Tier-3 to Tier-6 centres,10446,9499,947,9.066,nabard_nafis_2021_22,5.2,45-46

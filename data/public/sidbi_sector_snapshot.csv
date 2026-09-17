@@ -1,0 +1,3 @@
+geography,as_of,metric,value,unit,precision,definition,source_id,source_printed_pages
+India,2026-03-31,unique_live_microfinance_borrowers,55000000,people,approximate,Live accounts: 0 to 179 DPD plus new/current accounts; unique across lenders,sidbi_pulse_27,4;8
+India,2026-03-31,live_microfinance_portfolio_outstanding,277053,INR crore,reported,"Live portfolio, per report bureau coverage",sidbi_pulse_27,4;8

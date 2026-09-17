@@ -1,0 +1,44 @@
+{
+  "retrieved_on": "2026-09-17",
+  "data_kind": "Published aggregate survey and bureau statistics",
+  "is_borrower_history": false,
+  "is_domino_impact_measurement": false,
+  "nafis": {
+    "sample_households": 100000,
+    "states": 28,
+    "union_territories": 2,
+    "districts": 710,
+    "villages_or_census_enumeration_blocks": 10000,
+    "state_or_ut_rows": 30,
+    "india_aggregate_rows": 1,
+    "all_households_monthly_income_inr": 12698,
+    "all_households_monthly_consumption_inr": 11262,
+    "difference_of_means_inr": 1436,
+    "difference_share_of_mean_income_pct": 11.309,
+    "households_with_outstanding_debt_pct": 52,
+    "states_or_uts_with_mean_gap_below_1000_inr": 9,
+    "source": "https://www.nabard.org/auth/writereaddata/tender/2102255939NAFIS%202021-22%20Report%20Final.pdf"
+  },
+  "market": {
+    "unique_live_microfinance_borrowers_approx": 55000000,
+    "as_of": "2026-03-31",
+    "source": "https://www.sidbi.in/head/uploads/microfinancepulse_documents/MFI-Pulse-Report-27th-Edition.pdf",
+    "interpretation": "Sector scale, not DOMINO users, beneficiaries, customers, or attainable market share"
+  },
+  "impact": {
+    "verified_domino_beneficiaries": null,
+    "explanation": "No field outcome or partner deployment evidence supplied"
+  },
+  "chart": {
+    "recommended_type": "Grouped horizontal bar chart",
+    "title": "Income and consumption per household",
+    "subtitle": "Survey averages, rupees per month; NAFIS 2021-22",
+    "data_csv": "nafis_household_groups.csv",
+    "footer": "Source: NABARD, NAFIS 2021-22, Table 5.1, p.45. Published survey averages, not borrower cashflows.",
+    "note": "If showing a gap, label it income minus consumption. It is not a disposable-income or repayment-capacity estimate."
+  },
+  "sources": {
+    "nabard_nafis_2021_22": "https://www.nabard.org/auth/writereaddata/tender/2102255939NAFIS%202021-22%20Report%20Final.pdf",
+    "sidbi_pulse_27": "https://www.sidbi.in/head/uploads/microfinancepulse_documents/MFI-Pulse-Report-27th-Edition.pdf"
+  }
+}

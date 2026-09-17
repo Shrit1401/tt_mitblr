@@ -1,0 +1,12 @@
+node_modules
+.next
+.prototype-build
+packages
+apps/worker
+apps/web/app/api
+apps/web/lib/server
+services
+data
+backend
+Domino
+output

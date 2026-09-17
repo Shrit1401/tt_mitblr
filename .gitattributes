@@ -1,0 +1,4 @@
+# Preserve conventional CSV CRLF bytes for reproducible research artifacts.
+*.csv whitespace=cr-at-eol
+*.png binary
+*.ttf binary

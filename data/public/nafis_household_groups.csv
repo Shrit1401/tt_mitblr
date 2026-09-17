@@ -1,0 +1,4 @@
+household_group,avg_monthly_income_inr,avg_monthly_consumption_inr,income_minus_consumption_inr,source_id,source_table,source_printed_page,source_pdf_page_1_based
+All households,12698,11262,1436,nabard_nafis_2021_22,5.1,45,93
+Agricultural households,13661,11710,1951,nabard_nafis_2021_22,5.1,45,93
+Non-agricultural households,11438,10675,763,nabard_nafis_2021_22,5.1,45,93

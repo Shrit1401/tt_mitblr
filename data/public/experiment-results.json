@@ -1,0 +1,192 @@
+{
+  "run_at_utc": "2026-09-17T17:35:44.153711+00:00",
+  "scope": "Offline public evidence analysis only",
+  "python_version": "3.13.13",
+  "source_reference_periods": [
+    "NAFIS 2021-22",
+    "Microfinance Pulse as of 2026-03-31",
+    "India Financial Diaries February-June 2013"
+  ],
+  "backend_executed": false,
+  "backend_tested": false,
+  "mode": "local-source-reproduction",
+  "passed": 9,
+  "skipped": 0,
+  "source_sha256": {
+    "raw/nabard-nafis-2021-22.pdf": "2b09a5e4e64041932908f9427ff3d0dc0246b45b057511fbef82e280d9e3aada",
+    "raw/sidbi-microfinance-pulse-27.pdf": "bb18beef19f4bed8d6335e743c289005881303013b718b082f20673ec736f44f",
+    "raw/finmark-household-transactions.json": "4531b4f19de23dfd7a0a0d2259977504bc8f20e4de724b25ab7bd6ab6525896a",
+    "raw/finmark-request-url.txt": "657982278d2e80f0f5d888575687ab6bb918b65719606887c83d2e0348e49b0f"
+  },
+  "experiments": [
+    {
+      "id": "R01",
+      "title": "Pinned source integrity",
+      "status": "passed",
+      "measurements": {
+        "source_files_verified": 4
+      }
+    },
+    {
+      "id": "R02",
+      "title": "Published PDF table extraction",
+      "status": "passed",
+      "measurements": {
+        "state_rows": 31,
+        "groups": 3,
+        "gap": 1436,
+        "gap_below_1000_state_rows": 9,
+        "sector_unique_live_borrowers_approx": 55000000
+      }
+    },
+    {
+      "id": "R03",
+      "title": "Monthly diary normalization",
+      "status": "passed",
+      "measurements": {
+        "households_in_source": 86,
+        "income_month_observations": 357,
+        "expense_month_observations": 364,
+        "household_month_rows": 365,
+        "months_with_income_and_expense": 356,
+        "households_with_all_five_paired_months": 56,
+        "negative_reported_income_months": 26
+      }
+    },
+    {
+      "id": "R04",
+      "title": "Observed paired-month income-expense comparison",
+      "status": "passed",
+      "measurements": {
+        "households_with_paired_observations": 85,
+        "paired_household_months": 356,
+        "income_below_expense_months": 156,
+        "income_below_expense_month_share_pct": 43.8202,
+        "households_with_at_least_one_observed_income_below_expense_month": 75,
+        "household_share_with_at_least_one_observed_gap_pct": 88.2353,
+        "negative_income_observations_retained": 26,
+        "income_equals_expense_months": 1,
+        "income_above_expense_months": 199
+      }
+    },
+    {
+      "id": "R05",
+      "title": "Complete five-month household sensitivity",
+      "status": "passed",
+      "measurements": {
+        "households_with_paired_observations": 56,
+        "paired_household_months": 280,
+        "income_below_expense_months": 117,
+        "income_below_expense_month_share_pct": 41.7857,
+        "households_with_at_least_one_observed_income_below_expense_month": 49,
+        "household_share_with_at_least_one_observed_gap_pct": 87.5,
+        "negative_income_observations_retained": 19,
+        "income_equals_expense_months": 0,
+        "income_above_expense_months": 163
+      }
+    },
+    {
+      "id": "R06",
+      "title": "Missing-observation coverage",
+      "status": "passed",
+      "measurements": {
+        "households": 86,
+        "months_in_window": 5,
+        "possible_household_months": 430,
+        "observed_household_months": 365,
+        "paired_household_months": 356,
+        "absent_both_categories": 65,
+        "income_only_months": 1,
+        "expense_only_months": 8,
+        "households_by_paired_month_count": {
+          "0": 1,
+          "1": 1,
+          "2": 14,
+          "3": 9,
+          "4": 5,
+          "5": 56
+        },
+        "missing_values_imputed": 0,
+        "weekly_values_created": 0
+      }
+    },
+    {
+      "id": "R07",
+      "title": "Negative-income sensitivity",
+      "status": "passed",
+      "measurements": {
+        "primary_analysis_retains_negative_income": true,
+        "negative_income_months": 26,
+        "sensitivity_paired_months_excluding_negative_income": 330,
+        "sensitivity_gap_months_excluding_negative_income": 130,
+        "sensitivity_gap_share_pct": 39.3939,
+        "interpretation": "Diagnostic subset only. Exclusion changes the population and is not a correction to source data."
+      }
+    },
+    {
+      "id": "R08",
+      "title": "Monthly variation with explicit denominators",
+      "status": "passed",
+      "measurements": {
+        "months": [
+          {
+            "month": "2013-02-01",
+            "paired_household_months": 82,
+            "income_below_expense_months": 44,
+            "gap_share_pct": 53.6585
+          },
+          {
+            "month": "2013-03-01",
+            "paired_household_months": 83,
+            "income_below_expense_months": 42,
+            "gap_share_pct": 50.6024
+          },
+          {
+            "month": "2013-04-01",
+            "paired_household_months": 71,
+            "income_below_expense_months": 24,
+            "gap_share_pct": 33.8028
+          },
+          {
+            "month": "2013-05-01",
+            "paired_household_months": 61,
+            "income_below_expense_months": 25,
+            "gap_share_pct": 40.9836
+          },
+          {
+            "month": "2013-06-01",
+            "paired_household_months": 59,
+            "income_below_expense_months": 21,
+            "gap_share_pct": 35.5932
+          }
+        ]
+      }
+    },
+    {
+      "id": "R09",
+      "title": "Published aggregate consistency",
+      "status": "passed",
+      "measurements": {
+        "table_rows_checked": 36,
+        "income_minus_consumption_inr": 1436,
+        "mean_difference_as_share_of_mean_income_pct": 11.309,
+        "product_impact_measurement": false
+      }
+    }
+  ],
+  "unexecuted_backend_experiments": [
+    "API validation and tenant isolation",
+    "Cash/debt ledger invariant checks and parity",
+    "Forecast rolling-origin backtests",
+    "Required/diagnostic scenario replay",
+    "Optimizer exhaustive enumeration, timeout and rounding comparisons",
+    "Queue retry, worker crash and database tests",
+    "Backend latency and throughput benchmarks",
+    "Approval, consent and servicing integration tests"
+  ],
+  "limitations": [
+    "Public evidence results are not measurements of DOMINO's effectiveness or backend correctness.",
+    "Historical diaries are monthly and not nationally representative; loan status and repayment outcomes are unverified.",
+    "Published-only mode checks distributed aggregates without reproducing source extraction."
+  ]
+}

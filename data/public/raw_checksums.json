@@ -1,0 +1,57 @@
+[
+  {
+    "file": "raw/finmark-diaries.js",
+    "bytes": 1358446,
+    "sha256": "6520ed8d4677364b7b08d6502d7d9bb2af2c32527908d8747794e76363894371"
+  },
+  {
+    "file": "raw/finmark-household-transactions.json",
+    "bytes": 86250,
+    "sha256": "4531b4f19de23dfd7a0a0d2259977504bc8f20e4de724b25ab7bd6ab6525896a"
+  },
+  {
+    "file": "raw/finmark-india-financial-diaries.html",
+    "bytes": 68124,
+    "sha256": "8ef8ad81408e9eae6489d7e4c7040f2b1fb524d09e9f0707e67f3a494bcc7991"
+  },
+  {
+    "file": "raw/finmark-request-url.txt",
+    "bytes": 245,
+    "sha256": "657982278d2e80f0f5d888575687ab6bb918b65719606887c83d2e0348e49b0f"
+  },
+  {
+    "file": "raw/finmark-terms-of-use.html",
+    "bytes": 55590,
+    "sha256": "a46365c5ccf076f96e5543605bbfd22a2bbb220930d87736d8c833942d0718cd"
+  },
+  {
+    "file": "raw/mfin-home-2026-09-17.html",
+    "bytes": 86348,
+    "sha256": "64372e5d5a7d71aa9ec7f8d30dc3cfd6fbbd4b2f12f8f05faef37d0c2cacc192"
+  },
+  {
+    "file": "raw/mfin-q1-fy2026-27-press-release.pdf",
+    "bytes": 165309,
+    "sha256": "73514bade3365382fd134d373dfbfb4dba127b59c47a7667debf348ca82065b5"
+  },
+  {
+    "file": "raw/nabard-nafis-2021-22.pdf",
+    "bytes": 10732424,
+    "sha256": "2b09a5e4e64041932908f9427ff3d0dc0246b45b057511fbef82e280d9e3aada"
+  },
+  {
+    "file": "raw/nabard-nafis-2021-22.txt",
+    "bytes": 807422,
+    "sha256": "4a43227c10e08374a77c0074d4540f741d70cdf183728bb71e850e70b41c5650"
+  },
+  {
+    "file": "raw/sidbi-microfinance-pulse-27.pdf",
+    "bytes": 2265770,
+    "sha256": "bb18beef19f4bed8d6335e743c289005881303013b718b082f20673ec736f44f"
+  },
+  {
+    "file": "raw/sidbi-microfinance-pulse-27.txt",
+    "bytes": 70596,
+    "sha256": "22d43b6db08e5d9fa1d9a444a1e951d65bbcdd678d193cdf2f2cbf99c1ecc7c3"
+  }
+]

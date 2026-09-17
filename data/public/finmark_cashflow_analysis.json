@@ -1,0 +1,53 @@
+{
+  "source_name": "India Financial Diaries, public FinMark Trust portal",
+  "source_url": "https://finmark.org.za/data-portal/IND/financial-diaries",
+  "retrieved_on": "2026-09-17",
+  "geography": "Varanasi and outskirts, Uttar Pradesh, India",
+  "period": "February to June 2013",
+  "currency": "Nominal Indian rupees, 2013",
+  "unit_of_analysis": "Observed household-month with both income and expense values",
+  "raw_response_sha256": "4531b4f19de23dfd7a0a0d2259977504bc8f20e4de724b25ab7bd6ab6525896a",
+  "input_csv": "finmark_india_household_months.csv",
+  "input_csv_sha256": "9cef53246b2c88c1ea9132af554991d8ce65813cfae3cc360fd1951f74727231",
+  "method": "For each paired month, compare reported signed income with the positive expense outflow, obtained by negating reported signed expense. A gap is counted only where income < expense outflow. Use exact decimal arithmetic. Preserve negative income values. Do not infer missing values.",
+  "households_in_downloaded_source": 86,
+  "household_month_rows_in_tidy_source": 365,
+  "unpaired_household_months_excluded": 9,
+  "households_without_any_paired_month": 1,
+  "all_available_paired_months": {
+    "households_with_paired_observations": 85,
+    "paired_household_months": 356,
+    "income_below_expense_months": 156,
+    "income_below_expense_month_share_pct": 43.8202,
+    "households_with_at_least_one_observed_income_below_expense_month": 75,
+    "household_share_with_at_least_one_observed_gap_pct": 88.2353,
+    "negative_income_observations_retained": 26,
+    "income_equals_expense_months": 1,
+    "income_above_expense_months": 199
+  },
+  "complete_five_month_households": {
+    "households_with_paired_observations": 56,
+    "paired_household_months": 280,
+    "income_below_expense_months": 117,
+    "income_below_expense_month_share_pct": 41.7857,
+    "households_with_at_least_one_observed_income_below_expense_month": 49,
+    "household_share_with_at_least_one_observed_gap_pct": 87.5,
+    "negative_income_observations_retained": 19,
+    "income_equals_expense_months": 0,
+    "income_above_expense_months": 163
+  },
+  "negative_income_handling": "All 26 negative income observations in the paired sample are preserved and included; 19 are in the complete five-month subset. These source values are not clipped, converted to positive values, or interpreted as a coding error. Their component definitions require further codebook review.",
+  "interpretation": "These counts describe observed monthly income-expense gaps in a historical, nonrepresentative household diary sample. They do not measure essential-spending shortfalls, missed repayments, defaults, borrower distress, or people helped by DOMINO. The source does not establish household borrowing status or other cash resources.",
+  "limitations": [
+    "The sample is not nationally representative and has no population expansion applied.",
+    "Available-month denominators differ by household; the separate complete subset has exactly five paired months per household.",
+    "Households may cover a negative monthly difference with savings, borrowing, transfers, asset sales, or other resources not assessed here.",
+    "Aggregate expense categories are not a validated essential-spending measure.",
+    "No DOMINO intervention or outcome comparison exists in this dataset.",
+    "FinMark access and license ambiguity is documented in provenance.md; local research analysis is permitted by the published terms."
+  ],
+  "reproduce": [
+    "python3 data/public/analyze_finmark_diaries.py",
+    "python3 data/public/analyze_finmark_cashflow.py"
+  ]
+}

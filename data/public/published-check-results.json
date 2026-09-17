@@ -1,0 +1,108 @@
+{
+  "run_at_utc": "2026-09-17T17:48:33.787202+00:00",
+  "scope": "Offline public evidence analysis only",
+  "python_version": "3.13.13",
+  "source_reference_periods": [
+    "NAFIS 2021-22",
+    "Microfinance Pulse as of 2026-03-31",
+    "India Financial Diaries February-June 2013"
+  ],
+  "backend_executed": false,
+  "backend_tested": false,
+  "mode": "published-only",
+  "passed": 1,
+  "skipped": 8,
+  "source_sha256": {},
+  "experiments": [
+    {
+      "id": "R01",
+      "title": "Pinned source integrity",
+      "status": "skipped",
+      "measurements": {
+        "reason": "Source-dependent experiment explicitly excluded by --published-only."
+      }
+    },
+    {
+      "id": "R02",
+      "title": "Published PDF table extraction",
+      "status": "skipped",
+      "measurements": {
+        "reason": "Source-dependent experiment explicitly excluded by --published-only."
+      }
+    },
+    {
+      "id": "R03",
+      "title": "Monthly diary normalization",
+      "status": "skipped",
+      "measurements": {
+        "reason": "Source-dependent experiment explicitly excluded by --published-only."
+      }
+    },
+    {
+      "id": "R04",
+      "title": "Observed paired-month comparison",
+      "status": "skipped",
+      "measurements": {
+        "reason": "Source-dependent experiment explicitly excluded by --published-only."
+      }
+    },
+    {
+      "id": "R05",
+      "title": "Complete five-month sensitivity",
+      "status": "skipped",
+      "measurements": {
+        "reason": "Source-dependent experiment explicitly excluded by --published-only."
+      }
+    },
+    {
+      "id": "R06",
+      "title": "Missing-observation coverage",
+      "status": "skipped",
+      "measurements": {
+        "reason": "Source-dependent experiment explicitly excluded by --published-only."
+      }
+    },
+    {
+      "id": "R07",
+      "title": "Negative-income sensitivity",
+      "status": "skipped",
+      "measurements": {
+        "reason": "Source-dependent experiment explicitly excluded by --published-only."
+      }
+    },
+    {
+      "id": "R08",
+      "title": "Monthly variation",
+      "status": "skipped",
+      "measurements": {
+        "reason": "Source-dependent experiment explicitly excluded by --published-only."
+      }
+    },
+    {
+      "id": "R09",
+      "title": "Published aggregate consistency",
+      "status": "passed",
+      "measurements": {
+        "table_rows_checked": 36,
+        "income_minus_consumption_inr": 1436,
+        "mean_difference_as_share_of_mean_income_pct": 11.309,
+        "product_impact_measurement": false
+      }
+    }
+  ],
+  "unexecuted_backend_experiments": [
+    "API validation and tenant isolation",
+    "Cash/debt ledger invariant checks and parity",
+    "Forecast rolling-origin backtests",
+    "Required/diagnostic scenario replay",
+    "Optimizer exhaustive enumeration, timeout and rounding comparisons",
+    "Queue retry, worker crash and database tests",
+    "Backend latency and throughput benchmarks",
+    "Approval, consent and servicing integration tests"
+  ],
+  "limitations": [
+    "Public evidence results are not measurements of DOMINO's effectiveness or backend correctness.",
+    "Historical diaries are monthly and not nationally representative; loan status and repayment outcomes are unverified.",
+    "Published-only mode checks distributed aggregates without reproducing source extraction."
+  ]
+}

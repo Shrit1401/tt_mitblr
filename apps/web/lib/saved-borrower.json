@@ -1,0 +1,643 @@
+{
+  "borrower": {
+    "id": "farmer",
+    "name": "Rani Devi",
+    "occupation": "Seasonal crop farmer",
+    "pattern": "Two harvest cycles per year",
+    "synthetic": true,
+    "openingCashPaise": 600000,
+    "weeklyEssentialsPaise": 100000,
+    "loan": {
+      "principalPaise": 2400000,
+      "aprBps": 1800,
+      "termWeeks": 26,
+      "startDate": "2026-09-14"
+    },
+    "history": [
+      {
+        "date": "2024-09-16",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2024-09-23",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2024-09-30",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2024-10-07",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2024-10-14",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2024-10-21",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2024-10-28",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2024-11-04",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2024-11-11",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2024-11-18",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2024-11-25",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2024-12-02",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2024-12-09",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2024-12-16",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2024-12-23",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2024-12-30",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-01-06",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-01-13",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-01-20",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-01-27",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-02-03",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-02-10",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-02-17",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2025-02-24",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2025-03-03",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2025-03-10",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2025-03-17",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-03-24",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-03-31",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-04-07",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-04-14",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-04-21",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-04-28",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-05-05",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-05-12",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-05-19",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2025-05-26",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2025-06-02",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2025-06-09",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2025-06-16",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-06-23",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-06-30",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-07-07",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-07-14",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-07-21",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-07-28",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-08-04",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-08-11",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-08-18",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2025-08-25",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2025-09-01",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2025-09-08",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2025-09-15",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-09-22",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-09-29",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-10-06",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-10-13",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-10-20",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-10-27",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-11-03",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-11-10",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-11-17",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2025-11-24",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2025-12-01",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2025-12-08",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2025-12-15",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-12-22",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2025-12-29",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-01-05",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-01-12",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-01-19",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-01-26",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-02-02",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-02-09",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-02-16",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2026-02-23",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2026-03-02",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2026-03-09",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2026-03-16",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-03-23",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-03-30",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-04-06",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-04-13",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-04-20",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-04-27",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-05-04",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-05-11",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-05-18",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2026-05-25",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2026-06-01",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2026-06-08",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2026-06-15",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-06-22",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-06-29",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-07-06",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-07-13",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-07-20",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-07-27",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-08-03",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-08-10",
+        "incomePaise": 65000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 0
+      },
+      {
+        "date": "2026-08-17",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2026-08-24",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2026-08-31",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      },
+      {
+        "date": "2026-09-07",
+        "incomePaise": 570000,
+        "essentialsPaise": 100000,
+        "repaymentPaise": 40000
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "domino-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A thoughtful workspace for cash-flow-aligned repayment decisions.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "next dev apps/web --hostname 127.0.0.1",
+    "check:frontend": "tsc --project apps/web/tsconfig.frontend.json --noEmit",
+    "build:prototype": "node scripts/build-prototype.mjs",
+    "preview": "serve .prototype-build/out -l 3000",
+    "test:frontend": "playwright test",
+    "test:research": "python3 data/public/run_experiments.py --published-only",
+    "screenshots": "node scripts/capture-prototype.mjs",
+    "format:frontend": "prettier --write \"apps/web/components/*.tsx\" apps/web/lib/demo.ts apps/web/app/page.tsx apps/web/app/layout.tsx apps/web/app/globals.css"
+  },
+  "dependencies": {
+    "bullmq": "5.63.0",
+    "ioredis": "5.8.2",
+    "lucide-react": "0.468.0",
+    "next": "16.3.5",
+    "pg": "8.16.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "server-only": "0.0.1",
+    "zod": "4.1.12"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.10.2",
+    "@playwright/test": "1.63.0",
+    "@types/node": "22.19.0",
+    "@types/pg": "8.15.5",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "prettier": "3.6.2",
+    "serve": "14.2.6",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}

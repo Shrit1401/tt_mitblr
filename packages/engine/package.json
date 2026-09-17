@@ -1,0 +1,15 @@
+{
+  "name": "@domino/engine",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@domino/contracts": "*"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./legacy": "./src/model.ts",
+    "./fixtures": "./src/data.ts",
+    "./types": "./src/types.ts"
+  }
+}
